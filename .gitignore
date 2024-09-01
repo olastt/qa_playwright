@@ -1,0 +1,12 @@
+/venv
+/ui_test
+/idea
+/pytest_cache/
+/allure_rez
+/.allure_rez
+/allure_rez/
+.idea
+/idea/
+/sys/
+/sys
+.sys
