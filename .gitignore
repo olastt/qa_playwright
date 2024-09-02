@@ -1,6 +1,7 @@
 /venv
 /ui_test
 /idea
+/.idea
 /pytest_cache/
 /allure_rez
 /.allure_rez

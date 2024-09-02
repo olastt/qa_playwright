@@ -16,8 +16,8 @@ class PracticeFormPage:
         """Локаторы страницы: Почта"""
         self.email = Input(page, locator='//*[@id="userEmail"]', name='Почта')
 
-
-        # self.gender = Button(page, locator='//*[@id="gender-radio-2"]', name='Пол')
+        """Локаторы страницы: Гендер"""
+        self.gender = Button(page, locator='//*[@id="gender-radio-2"]', name='Пол')
 
         """Локаторы страницы: Номер телефона"""
         self.number = Input(page, locator='//*[@id="userNumber"]', name='Мобильный')
@@ -29,7 +29,8 @@ class PracticeFormPage:
         self.drop_calendar = Button(page, locator='//*[@id="dateOfBirthInput"]', name='Календарь')
         self.choose_month = Button(page, locator='//*[@class="react-datepicker__month-select"]', name='Календарь')
         self.choose_year = Button(page, locator='//*[@class="react-datepicker__year-select"]', name='Календарь')
-        self.choose_day = Button(page, locator='//*[@class="react-datepicker__day react-datepicker__day--002"]', name='Календарь')
+        self.choose_day = Button(page, locator='//*[@class="react-datepicker__day react-datepicker__day--002"]',
+                                 name='Календарь')
 
         """Локаторы страницы: Хобби"""
         self.hobbies = Button(page, locator='//*[@for="hobbies-checkbox-3"]', name='Увлечения')
@@ -40,16 +41,19 @@ class PracticeFormPage:
         """Локаторы страницы: Адрес"""
         self.address = Input(page, locator='//*[@id="currentAddress"]', name='Адрес')
 
+        """Локаторы страницы: Штат"""
+        self.state_drop = Input(page, locator='//*[@id="state"]', name='Штат')
+
         """Локаторы страницы: Город"""
-        self.city = Button(page, locator='//*[@class=" css-yk16xz-control"]', name='Город')
+        self.city_drop = Input(page, locator='//*[@id="city"]', name='Город')
+
+        """Локаторы страницы: Кнопка отправки"""
+        self.button = Button(page, locator='//*[@id="submit"]', name='Кнопка отправки')
+
+        """Локаторы страницы: Проверка заголовка попапа"""
+        self.check_title = page.title()  # Получение заголовка страницы
+
+        """Локаторы страницы: Закрытие попапа"""
+        self.button_close = Button(page, locator='//*[@id="closeLargeModal"]', name='Кнопка закрытия окна')
 
 
-        #
-        # """Ожидания"""
-        # self.Wait_first_name = '//*[@id="firstName"]'
-        # self.Wait_last_name = '//*[@id="lastName"]'
-        # self.Wait_email = '//*[@id="userEmail"]'
-        # # self.Wait_gender = '//*[@id="gender-radio-2"]'
-        # self.Wait_number = '//*[@id="userNumber"]'
-        # self.Wait_subject = '//*[@id="subjectsInput"]'
-        # self.Wait_drop_month = '(//*[starts-with(@class, "react-datepicker__month")])[2]'
