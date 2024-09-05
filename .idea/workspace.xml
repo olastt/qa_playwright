@@ -5,552 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26ec1307-acf8-427b-a013-6ee9172de5fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/checkbox_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/checkbox_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/checkbox_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/CheckboxForm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/CheckboxForm/test_checbox_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/ElementsForm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/ElementsForm/test_elements_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/PracticeForm/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/practice_form/practice_form_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/practice_form/practice_form_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/practice_form/practice_form_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/practice_form/practice_form_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/practice_form/practice_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/practice_form/practice_start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0001de2a-ad02-4deb-92bd-418b58d4120a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/00f1158b-f217-4a4b-977a-4bb551aac2a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0137b0fc-d492-4d53-8e62-439d4b430a26-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/01f468e7-5d0c-40db-a4de-5cda7ed9899b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/03dad9b2-f75f-431d-a5e0-1718a7b01844-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/04ad6961-b33b-4531-b7fa-f67de69f4273-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/04d10f46-9562-4027-9258-c623d8871c83-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/061d90d7-2385-4d8e-b88b-5e09bbbee3fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/076c709b-b517-4670-8c9f-ec415e6e26d4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/07c72445-2647-45f4-83b4-e3b38b499604-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/07f816db-264e-4d89-9f91-3b7852e6fd0c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/08020973-b5f3-44a3-986f-4c4e35be0534-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0818a5ac-797e-47b1-a1d6-7335a4b5e8aa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/08b69265-bbae-44de-9b10-a6645048f4d1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/08cb96ea-de9a-475f-89a7-ad39e7ea9f96-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/08fd9528-d047-4a5b-8c66-ab5c18904833-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0a121320-4bd4-42db-b0a1-5bd34093f0e3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0a17ff17-95b6-4d08-9c33-84bb178e65fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0a6abf69-0297-41dd-8053-5b015675b0ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0ac89b10-712b-4aba-89eb-f1af5d618749-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0b177eef-722b-4b7b-9a02-439ddc1d7235-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0b1da0e8-3ebf-4c98-962d-8a172da8bb8a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0b4685bb-2d81-4864-a54c-315e2201f425-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0c4299f7-edef-4dbb-a36a-988df6201837-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0d82d29f-6156-4048-accc-195c062aa1a4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0dcf484c-9e7e-486d-ab2f-ca972a200e1f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0e4eac19-57a2-4671-9a4a-a5cef9351fe7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0e91f0c0-64b6-4f8f-8ebe-0d3f8fc755e6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0f08340a-5930-4c22-8db2-1f63670668c0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0f1d5a2a-8095-45b8-a08d-0d4a568836dc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/0fb2ad5f-27a0-4b06-84b7-671718642b86-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/10631be9-87fb-4fa5-a8d8-e1c2b9b1d228-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/108f3aeb-a2a0-438b-bacb-f70b901832e5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/109eb0f4-9b07-4533-90dc-5672a12588fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/10e4225a-9c13-4257-90a6-d9ebf1a96cd1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/115a48eb-bfd3-4fc7-b173-6473a5f234fb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/11b5f4ef-60f6-4673-8e5f-0fc8f55ba160-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/12177385-1577-4f9e-9d64-6bc18ec8732e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/12da87d2-b2d0-4ea0-93c4-1d4fee6d72e8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1350122a-3237-4637-a6ed-7294dae00536-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/13740a11-8c6c-49c4-96aa-4695db9c9154-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/146571c5-754d-45ed-bd6b-aef899708d2c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1523beea-311d-47ab-b633-ef34c69c608f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/15713eb3-2758-4d17-baa3-f664ec0916fe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/157c6c0c-c8a2-417f-ae03-0c2ef0a0e5ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/166d9358-12d3-43d8-ac8e-a73d48fc7187-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1707780e-e260-4717-97e7-08dbb3334862-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1741d614-a698-4fec-80c4-3baac3342d5f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/17447a40-a77f-45bf-abaf-ebd81ca452de-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/18ed0a18-8f7c-499b-97a0-6b784daff24e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/19117b8d-74bf-447c-b942-c44e5d1871eb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/192101f7-6dd1-4d8e-aed6-ec49f9335d43-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1a1e0eb5-d9f8-4e8e-980a-e934867caa63-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1a6b4631-bf67-4e0b-8654-46aa49cc4d88-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1aa6dad8-2930-4b3a-a2f6-11f0f59523fa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1b2ad9ee-5267-4ca7-833f-b331abe94330-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1b791dc8-c4d7-4eee-bf7f-89670511a57b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1bfdd425-718a-4ba2-84ef-40efe31f122a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1c4b4fbd-b731-465d-9c83-60b87f5f75dd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1c59c4f6-cac9-41f9-b31b-6af07e4c6a52-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1c6e50b7-af37-4ede-a1d2-77f20c6a9b6d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1ce37b37-76a1-43b7-9a12-5185d84c9308-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1d5e3b95-efd0-4bc4-aa7a-d72fb805dc31-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1d736697-f39a-4a0c-8f2c-d27df67cad17-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1d7c4cfb-cb82-4872-9c63-7c0b3e32b5f6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1e196907-5491-4558-8432-4dafd85b29ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1e4fa6e3-42e2-4751-b15c-8c36eb62a844-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1ea2e15f-2732-4b83-a17f-7e7350e35b5a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/1f0b0409-2381-4134-9cee-4c5e52b1a758-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/205d55ae-2a08-44b4-86fe-fdee5a0db4de-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2134690e-2b03-465f-a246-b5769c5a5609-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2138d3c9-6d1f-48cf-8331-ff4375492dcd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/21ae1418-411d-4a0a-a3eb-b4cb8018c1e2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/22adf4a0-e182-40df-95c7-b525b6750433-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/22caa64d-4670-42ef-8d76-6d57fe651f32-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/234ec02d-8e72-4a63-bc04-925ac80d78ba-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/23717e52-9756-4888-bb39-f030285d642c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/23addc03-a1a3-42ae-908b-83f736d74cca-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/243070de-4ea8-4d87-9cfe-294bd3ea4004-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/24dab1ad-d93b-4563-afcd-ccb54be38b05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/24db3c1d-d8fe-4bdb-a0be-554d9a4d641d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/257e608a-be7b-4140-9669-192884d97f47-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/267ab2d0-528f-4f96-94ff-2269e84eafc8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/26e3eeb9-8d31-4da9-947a-25ca0afc82d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/272b555d-a744-4fa1-8925-750ee13341c1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/282e8fa4-a1b5-4838-895a-4bcdec9a7a24-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/28ab1d08-4b0c-4569-8703-6b7a78c3a3d7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/28e10fd4-66ab-4d36-b33a-9bef63e5978e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/299cbf3a-5a8b-43b8-a34d-2e9c3449e61f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2a13cd7a-de26-4d81-ad2c-e7a7e739032f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2a1e8c12-07ef-4258-9557-8ce8d9e4887c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2a40567e-9b0f-496b-bfe0-2beee4f8ec36-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2a972da3-11f2-414a-ad4e-38debda5fde7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2b3c02fd-9d15-4bdf-a907-444a64027e1d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2bfa18ca-7f3d-48c4-9d3a-9eae4c8f7d79-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2bfd05bc-15ee-47e8-a448-e5ff8d4be44d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2c3d23b8-7637-4255-9281-f64d1569962d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2d43ca05-9f63-4bcb-8c8d-b9ead6639cc0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2d68ea3e-9f82-41cf-8b7b-ccff88cdd91d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/2ddafc13-14c3-479f-89d3-c9344fef80ac-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/30a6005f-fe9e-4b1d-88f3-126f327534a8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3131f466-cd07-4d46-a7b5-fce6ff69414e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3180aed5-a207-4368-9b94-a1717023ff18-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/31a82e7a-791c-4ef3-85b1-2d2f81077d05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3286b009-b6b3-4c0f-a5bb-d81e678bd3cb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/328a06a7-aed2-4c19-a90e-d1bb199c626c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/328feee6-9e6d-490d-8f69-ec108953a279-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/32ca7864-bed0-4825-8357-6dea7daae460-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/32f21cae-88df-47ab-af2b-b016d27c43d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/33daea1a-6dda-45cc-8902-2874b3efd431-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/33e9ca9f-42cd-4685-8ac2-979c934aca5e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3429ef08-8c5c-478b-ab4c-b8522bc558fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/345ad8b6-03af-4b41-8b4b-a1e244459b7f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/35bca578-9c8f-41a9-a670-8db232735ee3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/35c89f81-9ee2-49b0-acda-872dde61a710-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/37070801-d20c-4300-8839-84c509f4a7b8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/371bed30-6510-4728-8e3a-c73953fa61f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3755d8ea-4e03-4784-8f56-c5575e43868e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/37fbdbbe-a7c4-4fce-96dd-0eac34a83b93-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/38854a38-84a6-4ccc-ac05-9eae0ecaf7d3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/39a70784-e349-407d-a5f0-8a9a945d456b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3ad88454-bbf2-4fd9-85ab-e12135d90ff9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3bac6fdc-cdfb-4dfd-93aa-ca4ea3b30174-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3d3bc8b3-d42c-47bd-b260-6db1d86174e7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3d96e0f8-19aa-4274-b268-3b69835c0d32-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3db7dc76-6590-48cb-9d61-8e84b6609af3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3dc27f91-fb1b-4005-8409-ffd380957aa4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3e6536a5-43cb-428c-84d8-6959dc80c498-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3ebee760-62fa-41ab-a4a2-93fa7bb4b170-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3f86ff2a-e7df-4790-913d-f671353d0d9d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/3f94283d-8e03-431b-9e81-a6ff51ab6546-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/400676b8-40b2-41b9-9a8e-8182d976368a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/40142a80-92b2-471e-8a94-a04a5722271b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/40782ada-ee2a-4bc9-b89c-04e98e9ebfb8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/409eaf5a-fff4-41ef-bd6d-5122cc471574-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/419f459c-ee72-46ba-b2f5-59c3fe8417c7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/41df6b23-1816-44af-9145-22e9051ba646-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/41f4c6c2-58a9-4516-92a9-72cbbd1dcc6e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/42119bf1-6799-4940-b4cc-7f806d2041de-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/426ec0dc-ced7-4c37-8c94-fcee21f4ca4d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/427f1c20-1206-43a0-9cab-d57cf935d8b0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/428dfa17-f1ee-43d0-9d93-5e633bc6a9fe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/43086425-57c2-49d3-a7a8-cf5df17bb39d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/432b2197-89bc-49cb-adaf-d2208a76ef08-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/43d619fd-9edc-4c24-82a5-dd512138701a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/44053066-cf36-44d0-92b2-77de3cbe8083-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/44555f6f-e4d1-4d63-b7b7-4fee3ed61c11-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/45e333ab-5ee9-4c74-a9dd-2fa14e2f58bb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4631c602-8176-4b46-9065-f364a3daf358-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/46562a9b-1dfc-40e6-bf50-d0a7b5e713e2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4738e467-40ac-4548-a34b-6ce3da9469a0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/480d420b-f140-408e-b9b4-62f57c373f2c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/482b69fa-d363-44b4-9db1-f068f5c1d49c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/486db79d-f18d-4c1b-844c-093a2cdd4765-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4ba78cc3-292f-427d-849e-13ab8235d318-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4bcc0213-a5d2-4f2f-88f7-c29b9910cbb7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4bf766ff-98bf-4b36-82b5-bba170d726fb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4c17320d-1610-45c4-810b-accb8a4123d0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4c282e52-fb9b-4a8f-9068-4e89a2909087-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4cd82e2d-3f7a-48eb-997b-430b08d0e22f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4cfa90ff-ebd2-498d-993b-35bab45b2205-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4deb2fc5-faee-41ed-9749-c343a410e437-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4e07eada-a674-4a9c-bb11-07ab7bd268b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4e40027b-5ef7-4547-bdcc-33109816e7f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4e763e2c-79b8-4fd9-a208-36d802bc3d2e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4f094a2f-e4f1-4f1a-bc9e-3dd9ca6f96b6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/4fff15b7-6ef5-4286-ae37-e7efcd7b804d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/50181d18-3080-48db-be0c-a5b5fb591923-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5292c89e-20bf-49fb-a718-52b095bf9ac5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5371793f-fa28-484d-9630-0b30f2ed66ed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/54008a1b-fdd8-4df8-a06c-47d7d82fa618-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/54550f9c-6c4d-4286-aae3-be262c692ecd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5457d7e0-0459-4101-b7d1-7703777fa397-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5495e978-82c2-4e16-990e-0a8d57fd0d78-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/54af95dc-1ae7-4792-8811-823e6c2eb049-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/55170f00-0604-44e6-adf2-4284d93e39cd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/551a22a6-270c-4fac-9ab8-bcafce860c80-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5554e003-d473-470a-918b-87ed1d1dd4b8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/567a5c55-403f-4d4d-ad82-960916633efa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/572f41ce-67e2-418f-a03d-6e5ef41fc3bd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5754a358-1ebe-4e1c-bf48-92b24fc4709d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5769ee4e-baf2-4e04-8318-5ca27ec30197-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/579731fb-d0de-471b-955e-74f119b72489-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/579ef353-44d9-49b4-adf2-1da0f7bfdff9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/57f08c7f-6fa6-4af2-918b-00b1aa830caf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/57f80b19-3dc3-45d6-8039-b8c79208df6d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5829000e-bd7a-49a2-a3c2-53fde84a459a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/58a6d475-f592-4761-98d1-608b2c964b66-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5a1d655b-8ff4-4206-93ff-17557479b3f0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5a4bd610-0de1-4844-b8ae-b75dda656275-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5a79d901-ba2c-4995-a24a-435923fe51af-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5bf4c828-df71-43b3-a390-5170e247e2b2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5c120674-1b25-4d6c-b532-36ef708b719a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5c6b5eb4-2343-4b11-8727-bad915dd740d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5ca17b30-f2f8-4a2a-8fb8-cdb29d839b77-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5d334ff2-68f0-4c91-b765-32c3740b8426-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5dd4dd39-fb0d-42d6-b002-62e37609d132-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5ebe2fc5-4e68-49f1-86b7-7c27e7cca074-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5ec3829a-23d4-403e-aa58-e92707746d08-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5efde937-dc5d-430d-9d0d-0dc814826e3b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/5f43ce5c-3b7f-4b6a-a45e-9bf172424fe8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/60665496-6d76-419a-979b-b05a194d40ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/613c4002-affe-49cb-9b1c-590520f4187c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6198900a-4ad5-4bca-bc23-c73da0d9305b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/629938fd-e766-4d0d-999e-9304073bbc26-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/62af8d56-3dcc-43e3-b91b-7a56cb2199e6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/63e8c09f-1b56-44a5-9106-e8b3d33c6718-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6404dd6a-f933-41f9-8277-4bbc49fef13f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/650c2264-a7fe-4c3d-8248-83056be258b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/659f076a-c5f5-47f4-bae6-a5d22f0baea3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/65c82f1a-e8f9-49f0-8059-0ff0b1aaad87-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/66fb4b8b-928f-4073-85ef-5549fa938cc5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/67c8edbb-96bb-4e5b-8c84-69613b95615d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/684ee8ba-c262-45ed-9812-a0bcca51200d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/685e7e3d-631b-4f6b-a503-eb60dcdebe46-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/687aa088-12fa-4e22-a83b-642b729f01eb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/692a4dd5-af0b-4361-a2ff-235018f8a43b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/69508cc0-36ea-4a43-a519-b81994bdce43-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/69755485-c58a-4501-9a64-1e044accb681-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6981b94b-e87e-415b-925c-0e976a15de82-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/69f248ed-3aa3-41cf-b32e-524d175d8de2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6a811c12-01a6-41f7-998c-dd42514582af-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6ab1c044-fab2-45c4-945f-b3e4d04f4b1e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6b317c4f-1735-4df8-92ef-8175a6673018-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6b4ed56e-578d-4c46-af7c-06db8a2126da-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6b963dfd-eeff-4498-b293-05cdb5a362ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6c1e3e73-dcfe-4e73-8d2e-3ba7e4f6a0a4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6c55a9f0-2b91-4f18-b81e-4e71374300e7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6cdf5803-f368-4add-a4bf-14a8cb7a97c2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6d7401f1-3d12-4650-8afe-ba141b8036f7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6db092f3-b276-4712-9f9c-d711e5bfdd9d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6dc556f3-db2a-4a91-b416-a97b0fbf45bb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6eba2a9a-23bb-40b3-bbd0-6e141329fd36-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6f2751a1-9c78-4668-acfd-62afec6bcda6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/6fdb5994-9527-496f-ae3b-3a4b6a6d1c02-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7042ff30-cae0-425e-a4fc-20ae6800c0d5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/70d9d8a9-1905-4168-8e10-11d0551978be-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/71fe9b62-9ac3-4622-a766-38335ba7036a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/720821e8-a080-4989-9473-2ce5807e96e5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7284b0fc-6107-47fa-aed4-27c5fdf3d44e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/72e18a28-1493-4710-a5a3-02a4365cfed1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/739ee090-fa9e-4c2f-b208-d692ed419874-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/73c304a7-293e-4707-8635-ed72563d9903-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7506971f-1f1f-41ec-aac2-b6540e84a7ee-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/777fe207-d3ad-4aa7-b4e6-f880defda4cd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/77aa6e64-34e4-47f7-acd1-ed43d7c104a7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/79544a29-9cbd-421b-8ed7-9f66cf0e496e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7a7797c1-2822-44f3-a553-01e7fb070791-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7a8563d7-9199-4adb-a562-0429e4809056-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7aa9fc63-25c4-4b09-85c5-d9c688eea52e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7bb8117b-d29b-4fe2-ae5d-938273cebcdf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7bbe6339-7b37-48ea-9257-78fd2ffb8644-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7c08f8a5-7b03-4e4e-8f3a-c583260f6b06-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7ca6fac3-05cf-4910-9eb4-ece87a6a914c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7cca7c49-e282-4e58-af29-ca1b135df8fa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7ce4805f-3277-4ded-a6b5-d333402a29cc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7d6ee61f-fc39-4cba-8e5b-e32a60666e70-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7e52371a-2e8b-4084-b757-9e177ed2ac33-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7ea3f2d2-7a43-4c7a-9145-ebe05d13897e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7ef3aff4-596e-4862-8380-33a461899892-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7f7d6ca0-8c6c-4745-9bb3-294589dbeedf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/7fa245cb-daa8-4d84-ae7e-503b11dccb25-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8042d897-c04d-4156-a0e3-72fb3a1296a0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/805f15df-ee3d-469c-bcf4-7b7940371d0d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/80c5deb7-0fae-4ef0-ae30-bc448fae2007-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/80dc88ab-6e32-4e22-8dce-1f983b4f32f2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/817fdb94-a049-4ee3-897e-dcad95410bed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8180d84d-966d-437b-bcc6-c3458a6432ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/81bd41bc-7db7-4871-925b-3dc67116f64f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/81d5ae9f-9843-4b07-a3e0-3f48fabaa059-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8292a23d-5060-4c88-abb8-6c5795b7e4c7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/82c0c4d4-9d6d-4e02-9375-95fc3a4bd507-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/82f3da7b-ded1-490f-a2c3-c2e3b4805e36-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/82f52ec2-b9e8-46bd-8499-d6d65d340f95-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/84246120-3781-40c6-ab0c-211f7f551c52-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/84b33aaf-dd3f-42f8-9671-116e48244eb2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/85b1c957-b2ed-4ee8-93a7-73bf92e4a5b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/869220cf-8985-4721-afa8-8177e860b558-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/869ed788-52ef-4d17-9c3f-7e7cb2d6280f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/87523a58-0a5e-4f77-9e8f-89c5f972f253-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/876afb94-3f94-44dd-9259-fc96f7470c88-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/879b71ca-85a6-40d9-a251-e646eceaa602-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/881d3913-a09e-4830-a4e9-d78b10d7e34d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8900474c-8a03-4b69-aa30-de7a54a7cc5f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/890efa13-a66f-4714-8591-a8e60eff640e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/893c2bc2-18e9-4c77-8780-7ec1ce04b0c7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/89e0a2a7-aab8-47a6-98e1-c65208917dfe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8ab918e9-4a49-4ddd-a022-9c9ba7d6d820-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8b003184-273a-4df8-ae58-2f0aaab1c4e6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8b3adb8d-a8c1-40e1-8233-901f459792d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8c2a00af-143b-4fd9-9991-972160a2b00a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8c80e898-bd45-44fb-8c88-a6e820a9d8cc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8ecd0a69-ec54-4c25-9e1a-a3f1426f7768-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8ecfa4fa-26b8-4e67-a453-08a553d0e18b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/8f138b8b-5740-4eae-8304-e7058317ea4d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9003067f-32ed-4041-9c3c-0c3afe2f8ae1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9059debb-5d6d-4b46-b9bc-9034a59f60f2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9163c533-3909-4d70-b5bf-eefae062a51d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9186fc24-3298-4452-b29d-35554c87e72d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/91e94f07-9dbc-4ec4-994c-3e22e4c239d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/94705291-ec6d-4e4b-9f40-b2d110e4684e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/970db5e0-8ed2-4258-ac90-9dc2fc73d8a2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/97bacfb0-11da-419f-9955-74317bef642f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/983189ff-fe72-4ae8-a3b3-95c91f0f2f28-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/99154e67-f39e-40b3-a70e-15dbb074fe30-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/99659f2b-5157-43a6-9637-28e8d93655f8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/99c6287d-18bf-4510-9b9c-e02516c61b65-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9afa3d5a-93aa-4f68-9d7c-6b32d2bf990e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9b20c20d-021a-4620-b773-cfb585284728-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9bdc394e-cc93-47f9-9c1d-5febfc7e5e96-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9c04e097-1502-40c2-b741-244941b791f4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9c21c6b4-d1b4-4938-afe3-6788af350d88-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9d2feb26-da84-426a-a8ae-bf5e58246cef-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9e18e36a-4e12-4bb7-b48e-55988e2b5781-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9e406d88-aa64-415c-b820-f2608c68ef59-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9e962f4d-b745-4b75-b958-3bece776adcb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9ed1894a-50d0-4bee-8149-42e57e2f758e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9f8f8d66-541b-42d3-a859-bd02dfaee361-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9fa28851-87fa-4f94-ba30-65ef1944eb18-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/9fabfbb8-58ee-42fb-aa18-977e7f01a3ad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a0421d63-9a44-4a3b-b5c0-58e2b8562b63-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a08cec46-98b6-41a8-aa63-77de6c24e4cc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a0addfb8-d8be-4810-b9d8-bdb0ac9cfb0c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a0b706b0-baee-42fb-802d-913611c0ea4f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a1ad162f-4114-48ff-80e8-bf5fdd1adcb5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a1d247a5-220a-498b-8b71-0198c2e09d58-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a1e5f8a2-dd0b-4afb-a93d-1c02a61b2e1e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a2b14b7c-6ef5-4521-9118-8b5be227af03-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a30776a5-f527-4467-95f6-783de8601337-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a3c60433-499a-4f6a-8620-4d7fce63d67c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a3e57838-2a1e-430b-84db-57fe96735884-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a51de3a5-d4ab-4479-8cb9-21ffcc7ab39c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a5b08841-6cde-4367-bd68-3514a0869d28-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a5c5603c-ee32-42bf-89a1-4ea774e6cf0f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a5c876dd-449e-4817-b0ad-257720df487f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a7227518-3faa-4806-b197-20fcee49bdbe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a8425c83-6edd-4950-b5b4-b45253b33022-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a9321adc-0be5-4453-b099-99c806a2e052-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/a99d025e-0b11-4905-81fd-434e1557e296-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/aa61b48d-5ab0-426f-bf31-0f531b27a67b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/aa7bc04e-8011-4b1d-9aa4-4c60d6822cd8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ab295d8c-c0bc-4b21-a086-7e110fe48d19-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ab5109cf-22fb-4aeb-b803-97666112564f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ab854b9f-c6e5-48ba-8af0-eeacf728ea83-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/abc7ad00-185f-46eb-a279-dafa558240d0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ac03389e-fcf7-4d75-944d-5c955641885f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ac0483b7-dc5e-4bea-96bd-e71cfd98898c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/aca08a23-7965-4aed-b332-14b200064df6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ad9b8065-1f63-461a-ae68-97056f428e11-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ade8ecbf-9011-4a22-b4f3-08738cd7b03a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/aeb8624a-c1ed-412b-a205-3aa8d0b87a6a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/af382eb9-3390-4488-84f6-0052df5e47e7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/af8d5d31-23d0-428e-9ac3-ecdee485ba65-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/afcdcf62-8481-4560-af8f-3b3dd1c72920-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/afe6504b-4ece-4c22-ac98-3369cf6a1080-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b0622ff6-44cb-4dad-acec-39ee4dd6e8d4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b0b0a408-e4c1-400f-8a3e-d9b6b992758a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b0bf2e85-d6e4-49bf-a948-53f01901070d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b0f3b35f-422e-43dc-b691-1d30b4efbd05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b151c3f4-14b8-40f2-a588-168d428659e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b2430e39-c416-4a0a-aee6-5d3563afb103-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b24e221d-4e33-4beb-86f9-e7b1857857b3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b25d64d5-224f-46c7-8183-c6644b9dfbd6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b25dca8f-3a2b-43c8-83fc-493f0c011ebe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b294ed77-bf04-48b2-8f86-1791c0ede1fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b31d5500-9aee-4865-9f97-b330f2aab040-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b363cdb8-78ae-4e47-aa96-3f496277d01b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b375564b-6c0e-412f-9690-abe24d3c6e6d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b46ec065-a695-40d9-a219-2513516f66d7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b49fb160-c296-41cb-99b8-534bb72b36d1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b4fa3b5e-be8b-4b44-90a1-ad21819d3794-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b4fb11e5-41d2-4469-b45c-c19ceb5d7a28-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b5448b05-2553-4f32-b5dc-74759c3b8210-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b63e0dae-2d4c-4f16-b96b-6a7a1014a915-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b75a9fc5-9cbc-4a17-89ae-0cd8adfed0ea-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b9b040db-9234-4af8-ac6a-f18f282d1a91-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b9d9807b-d342-4a61-ba07-7791721524ac-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/b9fede8c-eba4-4130-bbd6-b711e8518445-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ba984090-eead-49a7-aba2-eac7fe2109c7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bad7a73b-7e9a-4ea6-b478-c27663bad3b6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/baf1b355-4e4f-44f7-a9f0-19e7ab5e1b64-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bb2d8680-e710-477d-82c5-a826e5cfd125-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bbc9f69a-9338-4125-bed6-a37c536636eb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bd1d5be6-75b3-4f90-ae6d-629c1012f32c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bd1fb41e-beee-4c34-b533-262435852fec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bd32b6df-1129-4f58-a1d6-77b803904172-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bd55cd4f-4253-4dff-ae90-daf46d040893-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bdb257c5-7db5-4ac7-8c97-720a843ceb4a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bdb9ec9a-b1e8-4487-967f-63e04400708e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bdc84f46-b95d-484a-9625-7ce4627313e4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bde75936-ea01-4c0e-b363-0b9e98539586-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/befc4458-d17b-4926-86bf-29ab5b64c5c2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bf461d73-a341-47eb-9df6-da7254a457e7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bfa67101-736a-4256-b77c-a692735c32aa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/bfdbcc97-9949-446e-881c-d58218eacf05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c0caac6c-4e55-4b09-abf6-3f21863e5322-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c0dfdaa4-1c63-4bfe-8c62-d137739566a5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c127715c-a5b6-4459-a6b0-0c3c4dea6cbf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c15995d7-cef9-4675-a9c9-2b755d9d0df3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c19e7472-cf18-4af8-a02c-987319ce8d96-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c1d11647-2a8f-49d3-97f1-d8b2fbe4e964-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c1e05c6d-a33c-4987-865f-818606ebc455-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c2838e33-05d4-45c4-80d2-480e0e37c448-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c32bca3f-8241-4b21-8f6d-dcd19c8616c8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c32d190a-dcd3-41d0-b2eb-9cc0dce9a824-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c351d4d9-9688-4843-a5f7-5f2498100d25-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c3d722d8-5315-4b96-9a64-ff94363b886a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c3fdee60-7a3a-4f1c-bbab-e649ac16648d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c428989d-8e4f-4bb8-b2e6-1ca96a72be04-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c5413f99-f542-4761-92f9-0d93a9ae0a08-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c597a839-e4f2-43b6-acd8-955f8ad681b4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c59e2a1a-4345-4097-8c78-6ca86c5205bb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c5ea2954-49cd-484c-ae4e-3def996cb9f5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c6054721-4ca5-4df9-9ff1-007697da4367-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c64524ce-8e74-40c0-a64f-29a4b14790db-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c6ed4783-9a3e-4076-9dc6-bb8cf006d52b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c717ccf7-09dd-482a-932c-eda28aee2224-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c8168d7c-a5b4-4ad7-ae31-9be37016571c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c86793a9-d72c-40c0-9bea-21ad9c507ed2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/c8dbe53c-7d3d-4d2d-84b5-2ca0381fae1e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cb7038fe-6f9e-45cb-be7e-9871ec25b038-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cc69e379-f860-47da-912d-eef1fa50e6b3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ccd27995-78d4-467d-9d24-985e864fbff5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cd29423e-76eb-40da-ab93-f1f466066934-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cdd2861d-0cc1-4f63-9278-5f4292e2fded-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ce17a2b9-ad6a-41c6-8af0-1c061a1080f7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cf3e045f-5cd6-487a-8558-d8de598f474c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cf653ef4-ac90-46ae-abe5-a4cde09afd83-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/cfd24707-39f3-47d4-862f-abdb4b28f2c8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d02168fa-65bc-4b04-83a2-00aa84b81f5f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d05cc0db-b073-45a6-8661-2a787293fc74-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d0d992ad-a5a3-48d7-9629-9915fc5e2056-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d16510fb-2db0-4029-ab7b-241116056c1e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d16ac65a-07ec-4926-99f2-acf40b14ffc2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d2cb55f2-6bfd-4389-aa04-5fb668f81be0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d456724a-1133-4627-95df-5810c4b4a5c6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d46517e6-52c4-4dfd-b423-193faaa60637-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d515af31-cb66-4be1-9d04-fd4889dc5507-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d599ffa9-1ad5-4cec-8dd5-c721ac5e9905-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d5acfb1b-b4be-4151-8a27-e476f1ba9b86-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d5beda5b-796c-481a-8db8-84ae01bec202-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d5cfe180-7ec8-43e7-812c-25aa72a1ad60-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d6871388-32c0-4ff8-9d87-386a9ca2e771-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d79e018a-ef65-4db5-a7eb-4ae135941f2f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d7bd9833-85fd-4e07-8301-602022270e49-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d880ed20-e9e3-4ad0-833a-7f093d7e0635-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d890062e-ceb7-4812-acc9-16020d1c194f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d8f98046-656a-42ef-9034-727a500bb081-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d963a6d0-a08e-4522-ac23-9c44ae0ec49a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d9657777-b4f0-4bf8-8a5e-f3c43135db5a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/d97bca31-94ba-4c8d-9ffe-35b595e34aaa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/da05298e-3a0d-4027-b31f-1bde6981d31c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/da3571df-b491-4809-8d6d-3bc9cac84434-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/da5532ec-f828-48cb-a08f-1ac3fe98d2bf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/da6530c4-5307-467d-a218-8d4bfe766aff-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/da6576e7-abfe-44cc-90eb-0c0a7d852231-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dad66857-ce1f-426b-84cc-f0775133a874-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dad6c542-9a31-4521-b793-e27da634a553-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dad90151-71a3-44e4-b772-bfbdf16e42ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dc344b9e-68c3-4ead-8240-513a184bf197-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dd3a4535-7c87-4c02-adb0-dbc167ee64c4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/de3987ef-741e-44df-be1a-da0d9b0f1266-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/de65eb69-c192-4155-9add-19491a1d46de-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/de88fcd0-42a2-4330-ade3-fbe1945df5c5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/de93177b-78ee-4b69-b35c-c0289c98f67f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/df241c8e-12fa-43de-a95e-7042de34f132-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/df34bac7-5cfd-423c-a9e6-0079044741a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dfc20717-bbf5-4717-99bb-d1887032e682-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/dfeacdf7-f988-44bd-b6bb-ab8d13232f98-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e12391a9-d743-4888-af9e-76f2f9785594-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e28a3828-a4e2-4254-967e-aa6e42ca40a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e2b9fd46-6ca9-41c9-b65b-5e892ab6b582-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e2d43b29-25f0-42ad-82ce-07b9375feb91-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e304d50a-4830-49dd-aa80-608014e9cfe9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e34197c7-b74c-48bb-a6bc-081918bbe401-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e4ec0e50-90ea-46cd-8997-a720ecf40aea-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e504d20e-d485-49b1-9720-30a61bdb6dcc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e5708786-bc08-48c0-bd1c-0bd938e8203a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e5b2d010-8587-492e-82c8-aec69bd8052d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e6060bee-0186-4ea9-a682-095255a87c80-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e636be36-bf37-402b-a8ae-f6d286d3c455-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e6c9db71-1916-4c1b-95d8-625f1ccb872d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e6cd0682-b66d-42a3-8685-0ce541bdbd17-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e7143665-a2a8-4d2b-884c-5b0aa6f7cc50-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e750d9e6-cde5-4607-b5aa-a781e33b5715-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e7fea8e6-d506-4399-8467-8122990defec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e8a5ddd4-6c96-4da8-b760-5fd7d1215605-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e8a8749a-bb7a-4ba7-9d23-69c56dc9bab2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e8df51cb-af68-4426-b0bd-0490c92f64a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e9371565-6beb-4185-870b-27c1d6df00d0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/e9a8824d-88a7-424a-8eb4-b3a363964ee5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ec2b5cbd-13dc-41f3-9dff-d0e500ebd70f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ec51be0e-f4b4-4584-99ce-646061ba2c73-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ed1a76c7-cc9c-445e-b18e-9cb10a85b896-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/edc3751d-7bc6-48b5-b2f3-2f3005f055d0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ee323a48-9eeb-4ce2-bd37-b94ce697ef47-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ee3491d9-7771-4ead-9629-61185728b552-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ee3505c6-0be0-4bf1-b88e-b0b142514be6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ee3a1978-1b32-4099-8f01-fb614c2039ee-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ee93ba4a-26d0-47d6-b188-83d6f604b954-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ef018003-cb1a-4615-aaa8-a0a5bf0c566c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/ef2727a8-b258-4ecf-8edd-ed0e2033de29-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f1101c31-e94c-43b1-a4e4-7e07fcb86d48-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f13f19c9-e498-47e1-baf2-8ab6c3aa6ae3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f1fc324a-679a-4f69-bd21-419d15957844-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f2238392-6b8e-4269-a5d9-4c567db400f6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f246ac18-bd2b-413a-8f37-c8bd073f7cac-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f2efd9f8-c6ca-4a71-8ef2-a567c7579bb9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f38dfe93-090d-4d24-986c-be5c0946f861-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f39391d8-1029-493d-88e6-6a89e93e16a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f4bc57ff-233e-4b24-b997-eac21fa6a1f8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f52ac39e-78a3-4c94-87b5-55d64d49a822-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f5cb47a8-d72a-442b-a0fb-e04eb08c6a88-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f6772b12-4108-476c-ba3f-e550341356fa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f6b61bb4-e809-43c3-b55b-fb6a94f7c098-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f7365544-dea4-427e-92dd-64dd2e94af9e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f7460139-907b-4c95-bcb8-f58ae2b7938b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f813f50a-9004-4bdc-af12-e89794aa92c4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f8401e55-1ba5-4afd-82db-4e7e59c8aaf3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f9220c7e-ce0c-4011-b896-c5d7b4a4771f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/f99eacec-601f-4de7-943d-a50976fd2254-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fa10af1b-b925-427b-9db2-f4b9d3ffb216-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/faff15f7-1793-47a1-9565-ff7524fedc8a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fb38401b-621a-4059-96b6-ee7bc7cc7d44-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fb77352f-0f61-4d2e-80ea-c1b7291d1900-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fbc46b86-777c-41e1-bbb8-9a8f3ab4e1ad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fbc6115a-715a-489a-b5cb-15678560c8e0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fbe9a4b6-68ae-4656-bfe0-0d9aafe07869-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fc24b9b1-bee6-413c-8cf2-2d6bc65f2483-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fc5e1dad-b183-44b9-8384-22300e402a06-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fc7106b5-19b4-4664-a84c-2b22f02a832f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fc7370ce-2bd3-4e16-b131-f83e5ad9db8c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fcdd27fb-9c86-4eed-8da7-13b237b0f02f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fd409130-d2cd-472f-b13a-0667282e90e5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fdb9399f-63de-4973-8b40-285c21c1e849-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fdc03fcd-3558-4cbd-811d-d287b3b0e20e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fdfd4cd0-3286-4679-a152-882bbc2fb633-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fe4626ca-891e-49f0-8d1f-fcefe51a7db7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fea02512-96e6-484f-b21d-5a9f98091466-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fece1f8d-55f1-4abc-9506-b364ef8e2eb1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/allureress/fffcd37e-ab40-4d4e-9086-4cee637535f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/pages/authorization/authorization_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/authorization/authorization_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ui/test_practice_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ui/PracticeForm/test_practice_form.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -576,42 +47,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_practice_form.TestPractice.test_practice_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in button.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in radio_button.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_practice_form.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.check_box.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_form_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_form_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_start.executor&quot;: &quot;Run&quot;,
-    &quot;Python.radio_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.te.executor&quot;: &quot;Run&quot;,
-    &quot;Python.text_box.executor&quot;: &quot;Run&quot;,
-    &quot;Python.web_tables.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oleas/Downloads/qa_auto&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_practice_form.TestPractice.test_practice_form.executor": "Run",
+    "Python tests.Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form.executor": "Run",
+    "Python tests.Python tests in button.py.executor": "Run",
+    "Python tests.Python tests in radio_button.py.executor": "Run",
+    "Python tests.Python tests in test_checbox_form.py.executor": "Run",
+    "Python tests.Python tests in test_elements_form.py.executor": "Run",
+    "Python tests.Python tests in test_practice_form.py.executor": "Run",
+    "Python.button.executor": "Run",
+    "Python.check_box.executor": "Run",
+    "Python.checkbox_start.executor": "Run",
+    "Python.elements_start.executor": "Run",
+    "Python.practice_form_methods.executor": "Run",
+    "Python.practice_form_page.executor": "Run",
+    "Python.practice_start.executor": "Run",
+    "Python.radio_button.executor": "Run",
+    "Python.te.executor": "Run",
+    "Python.text_box.executor": "Run",
+    "Python.web_tables.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/oleas/Downloads/qa_auto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.database.main",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oleas\PycharmProjects\ui_test\tests\test_ui\PracticeForm" />
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\py_src\img" />
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\py_src\config" />
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\test\elements" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Python tests for test_practice_form.TestPractice.test_practice_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="elements_start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ui_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/pages/elements_form" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/pages/elements_form/elements_start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ui_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -623,13 +124,31 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_practice_form.TestPractice.test_practice_form&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_elements_form.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ui_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui/ElementsForm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_ui/ElementsForm/test_elements_form.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_practice_form.TestPractice.test_practice_form" />
+        <item itemvalue="Python tests.Python tests in test_elements_form.py" />
+        <item itemvalue="Python.elements_start" />
+        <item itemvalue="Python tests.Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +174,9 @@
       <workItem from="1724430432956" duration="4487000" />
       <workItem from="1725127580729" duration="606000" />
       <workItem from="1725219204048" duration="15952000" />
-      <workItem from="1725296657237" duration="14593000" />
+      <workItem from="1725296657237" duration="15162000" />
+      <workItem from="1725487611091" duration="127000" />
+      <workItem from="1725562293809" duration="9140000" />
     </task>
     <task id="LOCAL-00001" summary="first tests">
       <option name="closed" value="true" />
@@ -697,14 +218,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ui_test$text_box.coverage" NAME="text_box Coverage Results" MODIFIED="1722370432511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ui_test$practice_start.coverage" NAME="practice_start Coverage Results" MODIFIED="1725224999048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
+    <SUITE FILE_PATH="coverage/ui_test$practice_start.coverage" NAME="practice_start Coverage Results" MODIFIED="1725568961495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
     <SUITE FILE_PATH="coverage/ui_test$check_box.coverage" NAME="check_box Coverage Results" MODIFIED="1722370881823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$practice_form_page.coverage" NAME="practice_form_page Coverage Results" MODIFIED="1725226256013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
+    <SUITE FILE_PATH="coverage/ui_test$checkbox_start.coverage" NAME="checkbox_start Coverage Results" MODIFIED="1725573050414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/checkbox_form" />
     <SUITE FILE_PATH="coverage/ui_test$button.coverage" NAME="button Coverage Results" MODIFIED="1722546670145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725311144103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_ui" />
+    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725573694078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_ui/CheckboxForm" />
     <SUITE FILE_PATH="coverage/ui_test$web_tables.coverage" NAME="web_tables Coverage Results" MODIFIED="1722544640699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ui_test$practice_form_methods.coverage" NAME="practice_form_methods Coverage Results" MODIFIED="1725231281956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
     <SUITE FILE_PATH="coverage/ui_test$te.coverage" NAME="te Coverage Results" MODIFIED="1722369786859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$radio_button.coverage" NAME="radio_button Coverage Results" MODIFIED="1722372497521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ui_test$elements_start.coverage" NAME="elements_start Coverage Results" MODIFIED="1725569471206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/elements_form" />
+    <SUITE FILE_PATH="coverage/ui_test$practice_form_methods.coverage" NAME="practice_form_methods Coverage Results" MODIFIED="1725231281956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
   </component>
 </project>

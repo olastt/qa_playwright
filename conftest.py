@@ -1,5 +1,7 @@
 import pytest
 
+from base.pages.checkbox_form.checkbox_page import CheckboxPage
+from base.pages.elements_form.elements_page import ElementsPage
 from base.pages.practice_form.practice_form_page import PracticeFormPage
 from py_src.config.playwright import PlaywrightConfig
 from playwright.sync_api import Page, sync_playwright, Browser
@@ -28,5 +30,10 @@ def practice_form(page: Page) -> PracticeFormPage:
 
 
 @pytest.fixture(scope='function')
-def practice_form(page: Page):
-    return PracticeFormPage(page)
+def elements_form(page: Page) -> ElementsPage:
+    return ElementsPage(page)
+
+
+@pytest.fixture(scope='function')
+def checkbox_form(page: Page) -> CheckboxPage:
+    return CheckboxPage(page)
