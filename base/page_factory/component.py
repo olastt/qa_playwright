@@ -15,6 +15,14 @@ class Component(ABC):
     def type_of(self) -> str:
         return 'компонент'
 
+    def right_click(self,  **kwargs) -> None:
+        """
+        Нажимает правой кнопкой мыши на элемент
+        """
+        self.should_be_visible()
+        locator = self.get_locator(**kwargs)
+        locator.click(button='right')
+
     def get_locator(self, **kwargs) -> Locator:
         locator = self.locator.format(**kwargs)
         return self.page.locator(locator)

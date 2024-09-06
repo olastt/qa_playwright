@@ -1,6 +1,7 @@
 import time
 
 import allure
+from playwright.sync_api import Locator
 
 from base.page_factory.component import Component
 

@@ -3,6 +3,9 @@
 /idea
 /.idea
 /pytest_cache/
+/allureress
+/.allureress
+/allureress/
 /allure_rez
 /.allure_rez
 /allure_rez/

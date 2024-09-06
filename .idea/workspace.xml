@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26ec1307-acf8-427b-a013-6ee9172de5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/checkbox_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/checkbox_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/checkbox_form/checkbox_start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/CheckboxForm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/CheckboxForm/test_checbox_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/ElementsForm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/ElementsForm/test_elements_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/PracticeForm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/button_form/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/button_form/button_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/button_form/button_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/button_form/button_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/radio_button_form/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/radio_button_form/radio_button_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/radio_button_form/radio_button_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/radio_button_form/radio_button_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/ButtonForm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/ButtonForm/test_button_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/RadioButtonForm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ui/RadioButtonForm/test_radio_button_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/page_factory/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/page_factory/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/page_factory/component.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/page_factory/component.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/pages/authorization/authorization_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/authorization/authorization_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/test_practice_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ui/PracticeForm/test_practice_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ui/CheckboxForm/test_checbox_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ui/CheckboxForm/test_checkbox_form.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +44,30 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2jymS4BNu75NiEzeOpYLrRnPYpd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_button_form.TestButton.test_radio_form.executor": "Run",
     "Python tests.Python tests for test_practice_form.TestPractice.test_practice_form.executor": "Run",
+    "Python tests.Python tests for test_radio_button_form.TestPractice.test_radio_form.executor": "Run",
     "Python tests.Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form.executor": "Run",
     "Python tests.Python tests in button.py.executor": "Run",
     "Python tests.Python tests in radio_button.py.executor": "Run",
+    "Python tests.Python tests in test_button_form.py.executor": "Run",
     "Python tests.Python tests in test_checbox_form.py.executor": "Run",
+    "Python tests.Python tests in test_checkbox_form.py.executor": "Run",
     "Python tests.Python tests in test_elements_form.py.executor": "Run",
     "Python tests.Python tests in test_practice_form.py.executor": "Run",
+    "Python tests.Python tests in test_radio_button_form.py.executor": "Run",
     "Python.button.executor": "Run",
+    "Python.button_methods.executor": "Run",
+    "Python.button_start.executor": "Run",
     "Python.check_box.executor": "Run",
     "Python.checkbox_start.executor": "Run",
     "Python.elements_start.executor": "Run",
@@ -64,6 +75,8 @@
     "Python.practice_form_page.executor": "Run",
     "Python.practice_start.executor": "Run",
     "Python.radio_button.executor": "Run",
+    "Python.radio_button_page.executor": "Run",
+    "Python.radio_button_start.executor": "Run",
     "Python.te.executor": "Run",
     "Python.text_box.executor": "Run",
     "Python.web_tables.executor": "Run",
@@ -88,7 +101,7 @@
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\test\elements" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_button_form.TestButton.test_radio_form">
     <configuration name="elements_start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ui_test" />
       <option name="ENV_FILES" value="" />
@@ -110,6 +123,38 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_button_form.TestButton.test_radio_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ui_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui/ButtonForm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_button_form.TestButton.test_radio_form&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_radio_button_form.TestPractice.test_radio_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ui_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui/RadioButtonForm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_radio_button_form.TestPractice.test_radio_form&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -146,6 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_button_form.TestButton.test_radio_form" />
+        <item itemvalue="Python tests.Python tests for test_radio_button_form.TestPractice.test_radio_form" />
         <item itemvalue="Python tests.Python tests in test_elements_form.py" />
         <item itemvalue="Python.elements_start" />
         <item itemvalue="Python tests.Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form" />
@@ -176,7 +223,10 @@
       <workItem from="1725219204048" duration="15952000" />
       <workItem from="1725296657237" duration="15162000" />
       <workItem from="1725487611091" duration="127000" />
-      <workItem from="1725562293809" duration="9140000" />
+      <workItem from="1725562293809" duration="10315000" />
+      <workItem from="1725607447294" duration="2000" />
+      <workItem from="1725607533477" duration="1000" />
+      <workItem from="1725642756857" duration="16797000" />
     </task>
     <task id="LOCAL-00001" summary="first tests">
       <option name="closed" value="true" />
@@ -218,16 +268,20 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ui_test$text_box.coverage" NAME="text_box Coverage Results" MODIFIED="1722370432511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ui_test$radio_button_start.coverage" NAME="radio_button_start Coverage Results" MODIFIED="1725648590224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/radio_button" />
+    <SUITE FILE_PATH="coverage/ui_test$button_start.coverage" NAME="button_start Coverage Results" MODIFIED="1725657981514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/button_form" />
     <SUITE FILE_PATH="coverage/ui_test$practice_start.coverage" NAME="practice_start Coverage Results" MODIFIED="1725568961495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
     <SUITE FILE_PATH="coverage/ui_test$check_box.coverage" NAME="check_box Coverage Results" MODIFIED="1722370881823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$practice_form_page.coverage" NAME="practice_form_page Coverage Results" MODIFIED="1725226256013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
     <SUITE FILE_PATH="coverage/ui_test$checkbox_start.coverage" NAME="checkbox_start Coverage Results" MODIFIED="1725573050414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/checkbox_form" />
     <SUITE FILE_PATH="coverage/ui_test$button.coverage" NAME="button Coverage Results" MODIFIED="1722546670145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725573694078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_ui/CheckboxForm" />
+    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725660295437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_ui/ButtonForm" />
     <SUITE FILE_PATH="coverage/ui_test$web_tables.coverage" NAME="web_tables Coverage Results" MODIFIED="1722544640699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$te.coverage" NAME="te Coverage Results" MODIFIED="1722369786859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$radio_button.coverage" NAME="radio_button Coverage Results" MODIFIED="1722372497521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$elements_start.coverage" NAME="elements_start Coverage Results" MODIFIED="1725569471206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/elements_form" />
+    <SUITE FILE_PATH="coverage/ui_test$button_methods.coverage" NAME="button_methods Coverage Results" MODIFIED="1725656541211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/button_form" />
     <SUITE FILE_PATH="coverage/ui_test$practice_form_methods.coverage" NAME="practice_form_methods Coverage Results" MODIFIED="1725231281956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/practice_form" />
+    <SUITE FILE_PATH="coverage/ui_test$radio_button_page.coverage" NAME="radio_button_page Coverage Results" MODIFIED="1725648574156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/radio_button" />
   </component>
 </project>

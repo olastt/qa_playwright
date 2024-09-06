@@ -2,11 +2,11 @@ import allure
 from playwright.sync_api import Page
 
 from base.pages.authorization.authorization_method import AuthorizationMethod
-from base.pages.radio_button.radio_button_page import RadioButtonPage
-from base.pages.radio_button.radio_button_methods import RadioButtonMethods
+from base.pages.radio_button_form.radio_button_page import RadioButtonPage
+from base.pages.radio_button_form.radio_button_methods import RadioButtonMethods
 
 
-class Radio_Button_Start:
+class RadioButtonStart:
     @staticmethod
     def radio_button_start(page: Page, radio_button_form: RadioButtonPage):
         errors = []

@@ -3,7 +3,7 @@ import time
 import allure
 from playwright.sync_api import expect
 
-from base.pages.radio_button.radio_button_page import RadioButtonPage
+from base.pages.radio_button_form.radio_button_page import RadioButtonPage
 from py_src.config.expectations import Wait
 
 

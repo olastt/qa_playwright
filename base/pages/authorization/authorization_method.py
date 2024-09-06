@@ -15,3 +15,9 @@ class AuthorizationMethod:
 
     def auth_checkbox_form(page: Page):
         BasePage.open_page(page, Url.CHECKBOX)
+
+    def auth_radio_button_form(page: Page):
+        BasePage.open_page(page, Url.RADIO_BUTTON)
+
+    def auth_button_form(page: Page):
+        BasePage.open_page(page, Url.BUTTONS)

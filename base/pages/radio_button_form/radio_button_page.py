@@ -32,3 +32,4 @@ class RadioButtonPage:
     def is_impressive_radio_selected(self):
         radio_button = self.get_impressive_radio_locator()
         return radio_button.is_checked()
+
