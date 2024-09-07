@@ -15,7 +15,7 @@ class RadioButtonPage:
         """Локаторы страницы: Клик по радио кнопке Impressive"""
         self.click_on_impressive = Button(page, locator='//*[@for="impressiveRadio"]', name='Impressive')
 
-    # нагуглила, здесь получаем локатор элемента для проверки
+    # пришлось вынести сюда, нагуглила, здесь получаем локатор элемента для проверки
     def get_yes_radio_locator(self):
         return self.page.locator('//*[@for="yesRadio"]')
 

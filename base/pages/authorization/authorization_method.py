@@ -30,3 +30,6 @@ class AuthorizationMethod:
 
     def data_picker_form(page: Page):
         BasePage.open_page(page, Url.DATA_PICKER)
+
+    def select_menu_form(page: Page):
+        BasePage.open_page(page, Url.SELECT_MENU)

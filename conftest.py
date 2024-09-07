@@ -8,6 +8,7 @@ from base.pages.elements_form.elements_page import ElementsPage
 from base.pages.modal_form.modal_page import ModalPage
 from base.pages.practice_form.practice_form_page import PracticeFormPage
 from base.pages.radio_button_form.radio_button_page import RadioButtonPage
+from base.pages.select_menu_form.select_menu_page import SelectMenuPage
 from py_src.config.playwright import PlaywrightConfig
 from playwright.sync_api import Page, sync_playwright, Browser
 
@@ -65,5 +66,9 @@ def modal_form(page: Page) -> ModalPage:
 @pytest.fixture(scope='function')
 def data_picker_form(page: Page) -> DataPickerPage:
     return DataPickerPage(page)
+
+@pytest.fixture(scope='function')
+def select_menu_form(page: Page) -> SelectMenuPage:
+    return SelectMenuPage(page)
 
 

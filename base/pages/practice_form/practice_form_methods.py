@@ -72,7 +72,6 @@ class PracticeFormMethods:
                 self.choose_year.select_option(value='1997')
             with allure.step("Выбор дня - 2 число"):
                 self.choose_day.on_click()
-                time.sleep(1)
 
         except AssertionError as e:
             errors.append(str(e))

@@ -1,7 +1,6 @@
 import time
 
 import allure
-from playwright.sync_api import expect
 
 from base.pages.radio_button_form.radio_button_page import RadioButtonPage
 from py_src.config.expectations import Wait
@@ -21,6 +20,7 @@ class RadioButtonMethods:
                 self.click_on_yes.on_click()
 
             with allure.step("Проверка что радио кнопка выбрана"):
+                
                 if self.is_yes_radio_selected():
                     print("Радиокнопка 'Yes' выбрана")
                 else:
