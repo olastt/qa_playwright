@@ -4,7 +4,7 @@ from base.page_factory.button import Button
 
 class ButtonPage:
     def __init__(self, page: Page) -> None:
-        self.page = page  # Используем переданный объект page
+        self.page = page
 
         """Локаторы страницы: Двойной клик"""
         self.click = Button(page, locator='//*[@id="doubleClickBtn"]', name='Double Click')

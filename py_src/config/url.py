@@ -11,3 +11,5 @@ class Url:
     BROKEN = DOMAIN + 'broken'
     UPLOAD_DOWNLOAD = DOMAIN + 'upload-download'
     DYNAMIC_PROPERTIES = DOMAIN + 'dynamic-properties'
+    MODALS = DOMAIN + 'modal-dialogs'
+    DATA_PICKER = DOMAIN + 'date-picker'

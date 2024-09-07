@@ -15,7 +15,6 @@ class ButtonMethods:
         try:
             with allure.step("Двойное нажатие на кнопку"):
                 self.click.double_click()
-                time.sleep(1)  # Можно заменить на явное ожидание
         except AssertionError as e:
             errors.append(str(e))
             print(f"Ошибка при двойном клике: {e}")

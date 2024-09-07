@@ -21,3 +21,12 @@ class AuthorizationMethod:
 
     def auth_button_form(page: Page):
         BasePage.open_page(page, Url.BUTTONS)
+
+    def download_and_upload_form(page: Page):
+        BasePage.open_page(page, Url.UPLOAD_DOWNLOAD)
+
+    def modals_form(page: Page):
+        BasePage.open_page(page, Url.MODALS)
+
+    def data_picker_form(page: Page):
+        BasePage.open_page(page, Url.DATA_PICKER)

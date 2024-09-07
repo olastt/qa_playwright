@@ -11,5 +11,5 @@ class TestButton:
     @allure.epic("Тесты потока 1")
     @allure.feature("Button")
     @allure.title("Выбор кнопок")
-    def test_radio_form(self, page: Page, button_form: ButtonPage):
+    def test_button_form(self, page: Page, button_form: ButtonPage):
         ButtonStart.button_start(page, button_form)

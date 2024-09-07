@@ -1,8 +1,11 @@
 import pytest
 
+from base.pages.data_picker_form.data_picker_page import DataPickerPage
+from base.pages.download_and_upload_form.down_and_upload_page import DownAndUploadPage
 from base.pages.button_form.button_page import ButtonPage
 from base.pages.checkbox_form.checkbox_page import CheckboxPage
 from base.pages.elements_form.elements_page import ElementsPage
+from base.pages.modal_form.modal_page import ModalPage
 from base.pages.practice_form.practice_form_page import PracticeFormPage
 from base.pages.radio_button_form.radio_button_page import RadioButtonPage
 from py_src.config.playwright import PlaywrightConfig
@@ -45,7 +48,22 @@ def checkbox_form(page: Page) -> CheckboxPage:
 def radio_button_form(page: Page) -> RadioButtonPage:
     return RadioButtonPage(page)
 
+
 @pytest.fixture(scope='function')
 def button_form(page: Page) -> ButtonPage:
     return ButtonPage(page)
+
+
+@pytest.fixture(scope='function')
+def download_and_upload_form(page: Page) -> DownAndUploadPage:
+    return DownAndUploadPage(page)
+
+@pytest.fixture(scope='function')
+def modal_form(page: Page) -> ModalPage:
+    return ModalPage(page)
+
+@pytest.fixture(scope='function')
+def data_picker_form(page: Page) -> DataPickerPage:
+    return DataPickerPage(page)
+
 

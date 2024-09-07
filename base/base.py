@@ -29,10 +29,10 @@ class BasePage:
         def send_file(self, locator, path):
             element = self.wait_for_element(locator)
             element.set_input_files(path)
-
-        def simple_click(self, locator):
-            element = self.wait_for_element(locator)
-            element.click()
+        #
+        # def simple_click(self, locator):
+        #     element = self.wait_for_element(locator)
+        #     element.click()
 
         def click(self, locator):
             element = self.wait_for_element(locator)
