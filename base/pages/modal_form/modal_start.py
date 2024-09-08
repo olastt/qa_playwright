@@ -12,7 +12,7 @@ class ModalStart:
         errors = []
         try:
             with allure.step("Открытие страницы"):
-                AuthorizationMethod.modals_form(page)
+                AuthorizationMethod.auth_modals_form(page)
 
             with allure.step("Открытие и закрытие маленького модального окна"):
                 ModalMethods.click_on_small_modal(modal_form)

@@ -13,7 +13,7 @@ class DataPickerStart:
         errors = []
         try:
             with allure.step("Открытие страницы"):
-                AuthorizationMethod.data_picker_form(page)
+                AuthorizationMethod.auth_data_picker_form(page)
 
             with allure.step("Открытие первого дата пикера"):
                 DataPickerMethods.click_on_calendar(data_picker_form)

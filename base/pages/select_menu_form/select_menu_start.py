@@ -11,7 +11,7 @@ class SelectMenuStart:
         errors = []
         try:
             with allure.step("Открытие страницы"):
-                AuthorizationMethod.select_menu_form(page)
+                AuthorizationMethod.auth_select_menu_form(page)
 
             with allure.step("Открытие выпадающих списков"):
                 SelectMenuMethods.click_on_value(select_menu_form)

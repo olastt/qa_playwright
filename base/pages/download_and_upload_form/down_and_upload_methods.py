@@ -43,7 +43,7 @@ class DownloadAndUploadMethods:
         Wait.set_page(self.page)
 
         try:
-            with allure.step("Проверка заголовка у таблицы полученных данных"):
+            with allure.step("Проверка появления текста о скачанном файле"):
                 element_locator = self.page.locator('//*[@id="uploadedFilePath"]')
 
                 # Получаем текст
@@ -51,7 +51,7 @@ class DownloadAndUploadMethods:
                 expected_text = 'C:\fakepath\test.JPG'
 
                 if actual_text != expected_text:
-                    print(f"Ожидаемый заголовок: '{expected_text}', но получен: '{actual_text}'")
+                    print(f"Ожидаемый текст: '{expected_text}', но получен: '{actual_text}'")
 
         except AssertionError as e:
             errors.append(str(e))

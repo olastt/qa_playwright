@@ -1,6 +1,4 @@
 import time
-from pstats import Stats
-import base.base
 
 import allure
 

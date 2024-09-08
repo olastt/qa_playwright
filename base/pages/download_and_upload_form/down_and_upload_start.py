@@ -13,7 +13,7 @@ class DownloadAndUploadStart:
         errors = []
         try:
             with allure.step("Открытие страницы"):
-                AuthorizationMethod.download_and_upload_form(page)
+                AuthorizationMethod.auth_download_and_upload_form(page)
 
             with allure.step("Скачивание и загрузка файлов"):
                 DownloadAndUploadMethods.click_download_button(download_and_upload_form)

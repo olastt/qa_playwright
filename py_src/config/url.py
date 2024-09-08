@@ -14,3 +14,4 @@ class Url:
     MODALS = DOMAIN + 'modal-dialogs'
     DATA_PICKER = DOMAIN + 'date-picker'
     SELECT_MENU = DOMAIN + 'select-menu'
+    LOGIN = DOMAIN + 'login'

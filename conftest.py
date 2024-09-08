@@ -5,6 +5,7 @@ from base.pages.download_and_upload_form.down_and_upload_page import DownAndUplo
 from base.pages.button_form.button_page import ButtonPage
 from base.pages.checkbox_form.checkbox_page import CheckboxPage
 from base.pages.elements_form.elements_page import ElementsPage
+from base.pages.login_form.login_page import LoginPage
 from base.pages.modal_form.modal_page import ModalPage
 from base.pages.practice_form.practice_form_page import PracticeFormPage
 from base.pages.radio_button_form.radio_button_page import RadioButtonPage
@@ -70,5 +71,9 @@ def data_picker_form(page: Page) -> DataPickerPage:
 @pytest.fixture(scope='function')
 def select_menu_form(page: Page) -> SelectMenuPage:
     return SelectMenuPage(page)
+
+@pytest.fixture(scope='function')
+def login_form(page: Page) -> LoginPage:
+    return LoginPage(page)
 
 

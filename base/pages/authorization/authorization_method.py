@@ -22,14 +22,17 @@ class AuthorizationMethod:
     def auth_button_form(page: Page):
         BasePage.open_page(page, Url.BUTTONS)
 
-    def download_and_upload_form(page: Page):
+    def auth_download_and_upload_form(page: Page):
         BasePage.open_page(page, Url.UPLOAD_DOWNLOAD)
 
-    def modals_form(page: Page):
+    def auth_modals_form(page: Page):
         BasePage.open_page(page, Url.MODALS)
 
-    def data_picker_form(page: Page):
+    def auth_data_picker_form(page: Page):
         BasePage.open_page(page, Url.DATA_PICKER)
 
-    def select_menu_form(page: Page):
+    def auth_select_menu_form(page: Page):
         BasePage.open_page(page, Url.SELECT_MENU)
+
+    def auth_login_form(page: Page):
+        BasePage.open_page(page, Url.LOGIN)
