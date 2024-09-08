@@ -5,41 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26ec1307-acf8-427b-a013-6ee9172de5fb" name="Changes" comment="добавила тест на дата пикер">
-      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/auth/model_auth_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/auth/model_post_v1_token_generate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/registration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/registration/model_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/authorized/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/authorized/auth_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/authorized/methods_v1_authorized.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/methods_v1_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/registration_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/login_form/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/login_form/login_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/login_form/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/pages/login_form/login_start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/auth/test_v1_demoqa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/registration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/registration/test_v1_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/LoginForm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/LoginForm/test_login_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/authorization/authorization_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/authorization/authorization_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/data_picker_form/data_picker_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/data_picker_form/data_picker_start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/download_and_upload_form/down_and_upload_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/download_and_upload_form/down_and_upload_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/download_and_upload_form/down_and_upload_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/download_and_upload_form/down_and_upload_start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/elements_form/elements_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/elements_form/elements_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/modal_form/modal_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/modal_form/modal_start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/select_menu_form/select_menu_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/select_menu_form/select_menu_start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_src/config/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_src/config/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/models_api_pydantic/registration/model_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/models_api_pydantic/registration/model_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/pages/api_pages/registration/methods_v1_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/methods_v1_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/pages/api_pages/registration/registration_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/registration_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/test_v1_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/registration/test_v1_register.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +314,7 @@
       <workItem from="1725642756857" duration="17339000" />
       <workItem from="1725722806331" duration="25372000" />
       <workItem from="1725804339977" duration="1105000" />
-      <workItem from="1725816952851" duration="9665000" />
+      <workItem from="1725816952851" duration="10349000" />
     </task>
     <task id="LOCAL-00001" summary="first tests">
       <option name="closed" value="true" />
@@ -394,7 +364,7 @@
     <SUITE FILE_PATH="coverage/ui_test$checkbox_start.coverage" NAME="checkbox_start Coverage Results" MODIFIED="1725573050414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/checkbox_form" />
     <SUITE FILE_PATH="coverage/ui_test$methods_v1_registration.coverage" NAME="methods_v1_registration Coverage Results" MODIFIED="1725827169487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/api_pages/registration" />
     <SUITE FILE_PATH="coverage/ui_test$button.coverage" NAME="button Coverage Results" MODIFIED="1722546670145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725827876835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_api/registration" />
+    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725828405371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_api/registration" />
     <SUITE FILE_PATH="coverage/ui_test$web_tables.coverage" NAME="web_tables Coverage Results" MODIFIED="1722544640699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$te.coverage" NAME="te Coverage Results" MODIFIED="1722369786859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$radio_button.coverage" NAME="radio_button Coverage Results" MODIFIED="1722372497521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />

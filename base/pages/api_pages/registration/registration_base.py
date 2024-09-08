@@ -44,11 +44,11 @@ class RegistrationBase:
     @allure.step("Валидация успешного ответа")
     def validate_success_response(self, response):
         response_json = response.json()
-        print("Ответ сервера:", response_json)  # Для отладки
+        print("Ответ сервера:", response_json)
 
     @allure.step("Валидация ошибки")
     def validate_error_response(self, response):
-        error_response = RegistrationResponseError.model_validate(response.json())  # Используем model_validate
+        error_response = RegistrationResponseError.model_validate(response.json())
         assert error_response.code == 0, "Ожидался код ошибки '0'"
         assert isinstance(error_response.message, str), "Сообщение об ошибке должно быть строкой"
         print(f"Ошибка: Код - {error_response.code}, Сообщение - {error_response.message}")

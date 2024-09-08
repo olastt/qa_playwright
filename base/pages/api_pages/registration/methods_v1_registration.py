@@ -6,7 +6,7 @@ class RegistrationMethods:
     @staticmethod
     @allure.step("Регистрация пользователя через POST /Account/v1/User")
     def post_v1_account_registration():
-        auth_base = RegistrationBase(username="Олеся123321", password="Someon123321!")
+        auth_base = RegistrationBase(username="Олеся123qwe", password="Someone12qwe!")
 
         with allure.step("Формирование данных и отправка запроса"):
             data, url = auth_base.form_request_data(auth_base.get_registration_endpoint())
