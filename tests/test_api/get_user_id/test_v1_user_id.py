@@ -1,8 +1,6 @@
 import allure
 from base.pages.api_pages.authorized.methods_v1_authorized import MethodsAuthorized
 from base.pages.api_pages.get_user.get_user_base import GetUserBase
-from base.pages.api_pages.get_user.get_user_base import GetUserBase
-from base.pages.api_pages.get_user.methods_get_user import MethodsGetUser
 from base.pages.api_pages.registration.methods_v1_registration import RegistrationMethods
 
 
@@ -38,13 +36,9 @@ class TestUserV1Account:
         """
         # Получаем токен
         token = MethodsAuthorized.post_token_authorized()
-        #
-        # # Убедитесь, что токен не равен None
-        # assert token is not None, "Не удалось получить токен"
 
         # Используем userId, который сохранили в RegistrationMethods
         user_id = RegistrationMethods.user_id
-        # assert user_id is not None, "userID не был сохранен после регистрации"
 
         # Создаем экземпляр класса GetUserBase с базовым URL
         get_user_base = GetUserBase()
@@ -54,3 +48,5 @@ class TestUserV1Account:
 
         # Проверяем статус код ответа
         assert response.status_code == 200, f"Не удалось получить данные пользователя, статус код: {response.status_code}, тело ответа: {response.text}"
+
+
