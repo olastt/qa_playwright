@@ -5,11 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26ec1307-acf8-427b-a013-6ee9172de5fb" name="Changes" comment="добавила тест на дата пикер">
+      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/get_user_id/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/models_api_pydantic/get_user_id/model_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/get_user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/get_user/get_user_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pages/api_pages/get_user/methods_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_api/get_user_id/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_api/get_user_id/test_v1_user_id.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/models_api_pydantic/registration/model_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/models_api_pydantic/registration/model_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/pages/api_pages/authorized/methods_v1_authorized.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/api_pages/authorized/methods_v1_authorized.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/pages/api_pages/registration/methods_v1_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/methods_v1_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/pages/api_pages/registration/registration_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/pages/api_pages/registration/registration_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/test_v1_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/registration/test_v1_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/0453bec1-7092-4a73-964f-b3ff15460d0e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/1084e5bb-609e-46cf-9d93-67f85ae270c7-attachment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/1ebd27b6-6c1f-4f83-b3c1-22be50db452b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/256616f9-7e5e-48c2-8793-8a51c4eeb54b-attachment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/2b4c50ff-59d1-49b9-a6a4-aaf454af5f66-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/30783c5f-f9e7-46f8-beb3-e4b78ddfc2f0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/318fb5a4-2e4e-4f5d-af09-204637f2878c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/3fd1f514-c951-4710-a812-9e1d3ef02884-attachment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/52f29bc1-60f4-496a-a6e8-1eaf69b024ea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/5718eb03-57d4-4936-8927-c91464c98d3a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/6102fd53-442b-42b9-b25e-48ea9bf8520f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/6940e019-71e3-4876-a8cf-a2fb0886a93e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/9ab13127-c44f-4d55-bfd6-5f87b7a513f6-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/b4404ad5-0bd9-496b-83fc-93d0cfa34f86-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/bfdec637-4485-4c96-8a35-aa445237e0b3-attachment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/cb733253-c756-4ea7-a13a-8890b918b3a2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/f37aefbe-8af4-4a32-844c-dc993ffaf97e-attachment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/f459bc01-508e-4f7f-91a9-2c658855bb7b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/f559707b-f787-4909-9985-d0530857c3cc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/fbe6ad26-f859-4a0b-946a-5559e9e4a611-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/registration/allure_rez/fec5ac54-8e09-4eac-ac80-e69ecda6d91d-attachment.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,69 +63,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_button_form.TestButton.test_radio_form.executor": "Run",
-    "Python tests.Python tests for test_down_and_upload_form.TestDownloadAndUploadForm.test_download_and_upload_form.executor": "Run",
-    "Python tests.Python tests for test_practice_form.TestPractice.test_practice_form.executor": "Run",
-    "Python tests.Python tests for test_radio_button_form.TestPractice.test_radio_form.executor": "Run",
-    "Python tests.Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form.executor": "Run",
-    "Python tests.Python tests in button.py.executor": "Run",
-    "Python tests.Python tests in radio_button.py.executor": "Run",
-    "Python tests.Python tests in test_button_form.py.executor": "Run",
-    "Python tests.Python tests in test_checbox_form.py.executor": "Run",
-    "Python tests.Python tests in test_checkbox_form.py.executor": "Run",
-    "Python tests.Python tests in test_data_picker.py.executor": "Run",
-    "Python tests.Python tests in test_down_and_upload_form.py.executor": "Run",
-    "Python tests.Python tests in test_elements_form.py.executor": "Run",
-    "Python tests.Python tests in test_login_form.py.executor": "Run",
-    "Python tests.Python tests in test_modal_form.py.executor": "Run",
-    "Python tests.Python tests in test_practice_form.py.executor": "Run",
-    "Python tests.Python tests in test_radio_button_form.py.executor": "Run",
-    "Python tests.Python tests in test_select_menu_form.py.executor": "Run",
-    "Python tests.Python tests in test_v1_demoqa.py.executor": "Run",
-    "Python tests.Python tests in test_v1_register.py.executor": "Run",
-    "Python.button.executor": "Run",
-    "Python.button_methods.executor": "Run",
-    "Python.button_start.executor": "Run",
-    "Python.check_box.executor": "Run",
-    "Python.checkbox_start.executor": "Run",
-    "Python.data_picker_start.executor": "Run",
-    "Python.elements_start.executor": "Run",
-    "Python.methods_v1_registration.executor": "Run",
-    "Python.practice_form_methods.executor": "Run",
-    "Python.practice_form_page.executor": "Run",
-    "Python.practice_start.executor": "Run",
-    "Python.radio_button.executor": "Run",
-    "Python.radio_button_page.executor": "Run",
-    "Python.radio_button_start.executor": "Run",
-    "Python.select_menu_start.executor": "Run",
-    "Python.te.executor": "Run",
-    "Python.text_box.executor": "Run",
-    "Python.web_tables.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/oleas/Downloads/qa_auto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.database.main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_button_form.TestButton.test_radio_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_down_and_upload_form.TestDownloadAndUploadForm.test_download_and_upload_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_practice_form.TestPractice.test_practice_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_radio_button_form.TestPractice.test_radio_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_v1_user_id.TestRegistrationV1Account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_v1_user_id.TestRegistrationV1Account.test_post_token_authorized.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_v1_user_id.TestRegistrationV1Account.test_validate_token_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_v1_user_id.TestUserV1Account.test_registration_v1_account_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_ui.PracticeForm.test_practice_form.TestPractice.test_practice_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in button.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in radio_button.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_button_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_checbox_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_checkbox_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_data_picker.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_down_and_upload_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_elements_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_login_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_modal_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_practice_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_radio_button_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_select_menu_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_v1_demoqa.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_v1_register.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_v1_user_id.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.button_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.button_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checkbox_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_picker_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.elements_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.methods_v1_registration.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_form_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_form_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.radio_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.radio_button_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.radio_button_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.select_menu_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.te.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_tables.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oleas/Downloads/qa_auto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.database.main&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oleas\PycharmProjects\ui_test\base\models_api_pydantic" />
+      <recent name="C:\Users\oleas\PycharmProjects\ui_test\base" />
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\tests\test_api\registration" />
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\tests\test_api\auth" />
       <recent name="C:\Users\oleas\PycharmProjects\ui_test\base\models_api_pydantic\registration" />
-      <recent name="C:\Users\oleas\PycharmProjects\ui_test\base\pages\api_pages\registration" />
-      <recent name="C:\Users\oleas\PycharmProjects\ui_test\tests\test_ui" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.elements_start">
     <configuration name="elements_start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ui_test" />
       <option name="ENV_FILES" value="" />
@@ -121,45 +152,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="elements_start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ui_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/pages/elements_form" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/pages/elements_form/elements_start.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_button_form.TestButton.test_radio_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ui_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui/ButtonForm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_button_form.TestButton.test_radio_form&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_button_form.TestButton.test_radio_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -226,36 +218,68 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_radio_button_form.TestPractice.test_radio_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_v1_user_id.TestRegistrationV1Account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ui_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui/RadioButtonForm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api/get_user_id" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_radio_button_form.TestPractice.test_radio_form&quot;" />
+      <option name="_new_target" value="&quot;test_v1_user_id.TestRegistrationV1Account&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_elements_form.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_v1_user_id.TestRegistrationV1Account.test_post_token_authorized" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ui_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui/ElementsForm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api/get_user_id" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_ui/ElementsForm/test_elements_form.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_v1_user_id.TestRegistrationV1Account.test_post_token_authorized&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_v1_user_id.TestRegistrationV1Account.test_validate_token_response" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ui_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api/get_user_id" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_v1_user_id.TestRegistrationV1Account.test_validate_token_response&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_v1_user_id.TestUserV1Account.test_registration_v1_account_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ui_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api/get_user_id" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_v1_user_id.TestUserV1Account.test_registration_v1_account_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_elements_form.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -276,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_v1_user_id.TestUserV1Account.test_registration_v1_account_2" />
+        <item itemvalue="Python tests.Python tests for test_v1_user_id.TestRegistrationV1Account" />
+        <item itemvalue="Python tests.Python tests for test_v1_user_id.TestRegistrationV1Account.test_post_token_authorized" />
+        <item itemvalue="Python tests.Python tests for test_v1_user_id.TestRegistrationV1Account.test_validate_token_response" />
         <item itemvalue="Python tests.Python tests for test_down_and_upload_form.TestDownloadAndUploadForm.test_download_and_upload_form" />
-        <item itemvalue="Python tests.Python tests for test_button_form.TestButton.test_radio_form" />
-        <item itemvalue="Python tests.Python tests for test_radio_button_form.TestPractice.test_radio_form" />
-        <item itemvalue="Python tests.Python tests in test_elements_form.py" />
-        <item itemvalue="Python.elements_start" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +338,10 @@
       <workItem from="1725642756857" duration="17339000" />
       <workItem from="1725722806331" duration="25372000" />
       <workItem from="1725804339977" duration="1105000" />
-      <workItem from="1725816952851" duration="10349000" />
+      <workItem from="1725816952851" duration="10426000" />
+      <workItem from="1725909462598" duration="8384000" />
+      <workItem from="1725992823059" duration="15097000" />
+      <workItem from="1726056498139" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="first tests">
       <option name="closed" value="true" />
@@ -364,7 +391,7 @@
     <SUITE FILE_PATH="coverage/ui_test$checkbox_start.coverage" NAME="checkbox_start Coverage Results" MODIFIED="1725573050414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/checkbox_form" />
     <SUITE FILE_PATH="coverage/ui_test$methods_v1_registration.coverage" NAME="methods_v1_registration Coverage Results" MODIFIED="1725827169487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base/pages/api_pages/registration" />
     <SUITE FILE_PATH="coverage/ui_test$button.coverage" NAME="button Coverage Results" MODIFIED="1722546670145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1725828405371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_api/registration" />
+    <SUITE FILE_PATH="coverage/ui_test$.coverage" NAME=" Coverage Results" MODIFIED="1726006380880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_api/get_user_id" />
     <SUITE FILE_PATH="coverage/ui_test$web_tables.coverage" NAME="web_tables Coverage Results" MODIFIED="1722544640699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$te.coverage" NAME="te Coverage Results" MODIFIED="1722369786859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ui_test$radio_button.coverage" NAME="radio_button Coverage Results" MODIFIED="1722372497521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />

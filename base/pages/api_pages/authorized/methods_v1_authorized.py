@@ -1,4 +1,6 @@
 import allure
+import requests
+
 from base.pages.api_pages.authorized.auth_base import AuthBase
 
 
@@ -47,8 +49,11 @@ class MethodsAuthorized:
         В случае успешного получения токена, результат валидации добавляется в отчет Allure и выводится в консоль,
         включая сгенерированный токен. Если запрос на генерацию токена не удался, тест завершится с ошибкой, и информация
         об этом также будет включена в отчет Allure.
+
+        Возвращает:
+            str: Сгенерированный токен.
         """
-        auth_base = AuthBase(username="Олеся", password="Someone1234!")
+        auth_base = AuthBase(username="Тестик123321", password="Sometest123321!")
 
         with allure.step("Формирование данных и отправка запроса"):
             data, url = auth_base.form_request_data(auth_base.get_generate_token_endpoint())
@@ -56,3 +61,7 @@ class MethodsAuthorized:
 
         with allure.step("Валидация ответа"):
             auth_base.validate_response(response, auth_base.validate_token_response)
+
+        # Получаем токен из тела ответа
+        token = response.json().get("token")
+        return token
