@@ -53,7 +53,7 @@ class MethodsAuthorized:
         Возвращает:
             str: Сгенерированный токен.
         """
-        auth_base = AuthBase(username="Тыsscss1", password="Scdccscscssd1!")
+        auth_base = AuthBase(username="Testik2030", password="Pass202022!!")
 
         with allure.step("Формирование данных и отправка запроса"):
             data, url = auth_base.form_request_data(auth_base.get_generate_token_endpoint())

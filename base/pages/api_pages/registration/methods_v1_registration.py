@@ -26,7 +26,7 @@ class RegistrationMethods:
 
         """
 
-        registration_base = RegistrationBase(username="Тыsscss1", password="Scdccscscssd1!")
+        registration_base = RegistrationBase(username="Testik2030", password="Pass202022!!")
 
         with allure.step("Формирование данных и отправка запроса"):
             data, url = registration_base.form_request_data(registration_base.get_registration_endpoint())

@@ -1,30 +1,35 @@
 import allure
+import pytest
+
 from base.pages.api_pages.authorized.methods_v1_authorized import MethodsAuthorized
 from base.pages.api_pages.get_user.get_user_base import GetUserBase
 from base.pages.api_pages.registration.methods_v1_registration import RegistrationMethods
 
 
-class TestUserV1Account:
-    @allure.epic('API')
-    @allure.title('Регистрация v1 и получение данных пользователя')
-    def test_registration_v1_account_2(self):
-        """
-        Тест для проверки регистрации пользователя через эндпоинт /Account/v1/Register.
+@pytest.fixture(scope="module")
+def setup_user():
+    """
+    Фикстура для регистрации пользователя, получения токена и сохранения userId.
+    """
+    # Регистрация пользователя
+    RegistrationMethods.post_v1_account_registration()
 
-        Этот тест выполняет следующие шаги:
-        - Вызывает метод `post_v1_account_registration` из класса `RegistrationMethods`, который:
-        - Формирует данные для регистрации.
-        - Отправляет POST-запрос на сервер.
-        - Валидирует ответ сервера на успешность регистрации.
+    # Получение токена
+    token = MethodsAuthorized.post_token_authorized()
+    assert token is not None, "Токен не был сгенерирован"
 
-        Результаты теста записываются в отчет Allure.
-        """
-        RegistrationMethods.post_v1_account_registration()
+    # Сохранение userId
+    user_id = RegistrationMethods.user_id
+    assert user_id is not None, "userId не был сохранен"
 
+    return user_id, token
+
+
+class TestGetUser:
     @staticmethod
     @allure.epic('API')
     @allure.title('Получение токена и запрос на получение пользователя по его userId и token')
-    def test_get_token():
+    def test_get_token(setup_user):
         """
         Тест для проверки генерации токена пользователя.
 
@@ -34,11 +39,8 @@ class TestUserV1Account:
 
         Результаты теста записываются в отчет Allure.
         """
-        # Получаем токен
-        token = MethodsAuthorized.post_token_authorized()
 
-        # Используем userId, который сохранили в RegistrationMethods
-        user_id = RegistrationMethods.user_id
+        user_id, token = setup_user
 
         # Создаем экземпляр класса GetUserBase с базовым URL
         get_user_base = GetUserBase()
@@ -48,5 +50,3 @@ class TestUserV1Account:
 
         # Проверяем статус код ответа
         assert response.status_code == 200, f"Не удалось получить данные пользователя, статус код: {response.status_code}, тело ответа: {response.text}"
-
-
